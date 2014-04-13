@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Middleman Sass"
   s.description = "Styleguide"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,source,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   # s.add_dependency "rails", "~> 3.2.12"
